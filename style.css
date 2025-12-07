@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #FFD6EB, #E9D7FF);
+  color: #5a4d6f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #fff7ff;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(200, 140, 255, 0.3);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+h1 {
+  font-size: 24px;
+  color: #b86ce4;
+  margin-bottom: 15px;
+}
+
+.kanye-img {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(150, 90, 200, 0.3);
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px;
+  background: #fbe7ff;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(220, 170, 255, 0.4);
+  margin-bottom: 20px;
+}
+
+button {
+  background: #e89fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(180, 90, 255, 0.3);
+}
+
+button:hover {
+  background: #c87ceb;
+  transform: scale(1.05);
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  color: #6d5d82;
+}
